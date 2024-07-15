@@ -5,12 +5,9 @@ import os
 from langchain_community.graphs import Neo4jGraph
 import pandas as pd
 
-#os.environ["OPENAI_API_KEY"] = "sk-proj-pyhqyGcgMQj7PTSR5ZcBT3BlbkFJlefB1BhxK9fPtOOey7QA"
-#os.environ["LANGCHAIN_API_KEY"] = "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"
-#os.environ["LANGCHAIN_TRACING_V2"] = "true"
-os.environ["NEO4J_URI"] = "atabases.neo4j.io"
-os.environ["NEO4J_USERNAME"] = "neo4j"
-os.environ["NEO4J_PASSWORD"] = "gRjPXYwV2njxNq_tgZ-xa5JV4"
+os.environ["NEO4J_URI"] = "###"
+os.environ["NEO4J_USERNAME"] = "###"
+os.environ["NEO4J_PASSWORD"] = "###"
 
 finance_data_url = "https://raw.githubusercontent.com/IAmSudhirGupta/ml_ops/main/bank.csv"
 

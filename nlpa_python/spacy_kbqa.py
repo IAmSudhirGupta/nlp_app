@@ -3,9 +3,9 @@ from neo4j import GraphDatabase
 import re
 
 # Neo4j connection details
-uri = "neo4j+s://4b8f0e1f.databases.neo4j.io"
-username = "neo4j"
-password = "gPt46qOtoMvRjPXYwV2njxNq_tgb2UpD3wmZ-xa5JV4"
+uri = "###"
+username = "###"
+password = "###"
 
 # Load the English language model
 nlp = spacy.load('en_core_web_sm')
