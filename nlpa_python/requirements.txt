@@ -1,0 +1,7 @@
+langchain
+langchain-community
+langchain_openai
+neo4j
+spacy
+Flask
+Flask-CORS

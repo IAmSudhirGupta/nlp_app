@@ -1,0 +1,518 @@
+@prefix : <https://arthur.linked.data.world/d/banks/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix fn: <http://www.w3.org/2005/xpath-functions#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+
+:row-top50banks2017_03_31-0
+        rdf:type         :FinancialInstitution ;
+        :hasName         "Industrial & Commercial Bank of China" ;
+        :hasCountry      "China" ;
+        :hasTotalAssets  _:b0 .
+
+_:b0    rdf:type              :AssetAggregation ;
+        :hasValue             3615.17 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-1
+        rdf:type         :FinancialInstitution ;
+        :hasName         "China Construction Bank Corp" ;
+        :hasCountry      "China" ;
+        :hasTotalAssets  _:b1 .
+
+_:b1    rdf:type              :AssetAggregation ;
+        :hasValue             3149.25 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-10
+        rdf:type         :FinancialInstitution ;
+        :hasName         "Japan Post Bank" ;
+        :hasCountry      "Japan" ;
+        :hasTotalAssets  _:b2 .
+
+_:b2    rdf:type              :AssetAggregation ;
+        :hasValue             1874.9 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-11
+        rdf:type         :FinancialInstitution ;
+        :hasName         "Credit Agricole Group" ;
+        :hasCountry      "France" ;
+        :hasTotalAssets  _:b3 .
+
+_:b3    rdf:type              :AssetAggregation ;
+        :hasValue             1869.92 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-12
+        rdf:type         :FinancialInstitution ;
+        :hasName         "China Development Bank" ;
+        :hasCountry      "China" ;
+        :hasTotalAssets  _:b4 .
+
+_:b4    rdf:type              :AssetAggregation ;
+        :hasValue             1831.86 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-13
+        rdf:type         :FinancialInstitution ;
+        :hasName         "Citigroup Inc" ;
+        :hasCountry      "USA" ;
+        :hasTotalAssets  _:b5 .
+
+_:b5    rdf:type              :AssetAggregation ;
+        :hasValue             1821.64 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-14
+        rdf:type         :FinancialInstitution ;
+        :hasName         "Mizuho Financial Group" ;
+        :hasCountry      "Japan" ;
+        :hasTotalAssets  _:b6 .
+
+_:b6    rdf:type              :AssetAggregation ;
+        :hasValue             1793.84 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-15
+        rdf:type         :FinancialInstitution ;
+        :hasName         "Sumitomo Mitsui Financial Group" ;
+        :hasCountry      "Japan" ;
+        :hasTotalAssets  _:b7 .
+
+_:b7    rdf:type              :AssetAggregation ;
+        :hasValue             1769.54 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-16
+        rdf:type         :FinancialInstitution ;
+        :hasName         "Deutsche Bank" ;
+        :hasCountry      "Germany" ;
+        :hasTotalAssets  _:b8 .
+
+_:b8    rdf:type              :AssetAggregation ;
+        :hasValue             1672.27 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-17
+        rdf:type         :FinancialInstitution ;
+        :hasName         "Barclays PLC" ;
+        :hasCountry      "UK" ;
+        :hasTotalAssets  _:b9 .
+
+_:b9    rdf:type              :AssetAggregation ;
+        :hasValue             1502.15 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-18
+        rdf:type         :FinancialInstitution ;
+        :hasName         "Societe Generale" ;
+        :hasCountry      "France" ;
+        :hasTotalAssets  _:b10 .
+
+_:b10   rdf:type              :AssetAggregation ;
+        :hasValue             1497.47 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-19
+        rdf:type         :FinancialInstitution ;
+        :hasName         "Banco Santander" ;
+        :hasCountry      "Spain" ;
+        :hasTotalAssets  _:b11 .
+
+_:b11   rdf:type              :AssetAggregation ;
+        :hasValue             1444.85 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-2
+        rdf:type         :FinancialInstitution ;
+        :hasName         "Agricultural Bank of China" ;
+        :hasCountry      "China" ;
+        :hasTotalAssets  _:b12 .
+
+_:b12   rdf:type              :AssetAggregation ;
+        :hasValue             2950.21 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-20
+        rdf:type         :FinancialInstitution ;
+        :hasName         "Groupe BPCE" ;
+        :hasCountry      "France" ;
+        :hasTotalAssets  _:b13 .
+
+_:b13   rdf:type              :AssetAggregation ;
+        :hasValue             1323.76 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-21
+        rdf:type         :FinancialInstitution ;
+        :hasName         "Bank of Communications" ;
+        :hasCountry      "China" ;
+        :hasTotalAssets  _:b14 .
+
+_:b14   rdf:type              :AssetAggregation ;
+        :hasValue             1267.78 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-22
+        rdf:type         :FinancialInstitution ;
+        :hasName         "Postal Savings Bank of China" ;
+        :hasCountry      "China" ;
+        :hasTotalAssets  _:b15 .
+
+_:b15   rdf:type              :AssetAggregation ;
+        :hasValue             1231.95 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-23
+        rdf:type         :FinancialInstitution ;
+        :hasName         "Lloyds Banking Group" ;
+        :hasCountry      "UK" ;
+        :hasTotalAssets  _:b16 .
+
+_:b16   rdf:type              :AssetAggregation ;
+        :hasValue             1020.01 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-24
+        rdf:type         :FinancialInstitution ;
+        :hasName         "Royal Bank of Scotland Group" ;
+        :hasCountry      "UK" ;
+        :hasTotalAssets  _:b17 .
+
+_:b17   rdf:type              :AssetAggregation ;
+        :hasValue             977.408 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-25
+        rdf:type         :FinancialInstitution ;
+        :hasName         "Norinchukin Bank" ;
+        :hasCountry      "Japan" ;
+        :hasTotalAssets  _:b18 .
+
+_:b18   rdf:type              :AssetAggregation ;
+        :hasValue             957.372 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-26
+        rdf:type         :FinancialInstitution ;
+        :hasName         "ING Groep NV" ;
+        :hasCountry      "Netherlands" ;
+        :hasTotalAssets  _:b19 .
+
+_:b19   rdf:type              :AssetAggregation ;
+        :hasValue             945.608 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-27
+        rdf:type         :FinancialInstitution ;
+        :hasName         "UniCredit S.p.A." ;
+        :hasCountry      "Italy" ;
+        :hasTotalAssets  _:b20 .
+
+_:b20   rdf:type              :AssetAggregation ;
+        :hasValue             941.622 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-28
+        rdf:type         :FinancialInstitution ;
+        :hasName         "Toronto-Dominion Bank" ;
+        :hasCountry      "Canada" ;
+        :hasTotalAssets  _:b21 .
+
+_:b21   rdf:type              :AssetAggregation ;
+        :hasValue             941.293 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-29
+        rdf:type         :FinancialInstitution ;
+        :hasName         "UBS Group AG" ;
+        :hasCountry      "Switzerland" ;
+        :hasTotalAssets  _:b22 .
+
+_:b22   rdf:type              :AssetAggregation ;
+        :hasValue             909.208 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-3
+        rdf:type         :FinancialInstitution ;
+        :hasName         "Bank of China" ;
+        :hasCountry      "China" ;
+        :hasTotalAssets  _:b23 .
+
+_:b23   rdf:type              :AssetAggregation ;
+        :hasValue             2746.05 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-30
+        rdf:type         :FinancialInstitution ;
+        :hasName         "Royal Bank of Canada" ;
+        :hasCountry      "Canada" ;
+        :hasTotalAssets  _:b24 .
+
+_:b24   rdf:type              :AssetAggregation ;
+        :hasValue             904.45 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-31
+        rdf:type         :FinancialInstitution ;
+        :hasName         "Industrial Bank Co. Ltd" ;
+        :hasCountry      "China" ;
+        :hasTotalAssets  _:b25 .
+
+_:b25   rdf:type              :AssetAggregation ;
+        :hasValue             904.22 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-32
+        rdf:type         :FinancialInstitution ;
+        :hasName         "Goldman Sachs Group" ;
+        :hasCountry      "USA" ;
+        :hasTotalAssets  _:b26 .
+
+_:b26   rdf:type              :AssetAggregation ;
+        :hasValue             894.069 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-33
+        rdf:type         :FinancialInstitution ;
+        :hasName         "China Merchants Bank" ;
+        :hasCountry      "China" ;
+        :hasTotalAssets  _:b27 .
+
+_:b27   rdf:type              :AssetAggregation ;
+        :hasValue             871.052 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-34
+        rdf:type         :FinancialInstitution ;
+        :hasName         "China Minsheng Banking Corp" ;
+        :hasCountry      "China" ;
+        :hasTotalAssets  _:b28 .
+
+_:b28   rdf:type              :AssetAggregation ;
+        :hasValue             864.655 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-35
+        rdf:type         :FinancialInstitution ;
+        :hasName         "Shanghai Pudong Development Bank" ;
+        :hasCountry      "China" ;
+        :hasTotalAssets  _:b29 .
+
+_:b29   rdf:type              :AssetAggregation ;
+        :hasValue             854.937 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-36
+        rdf:type         :FinancialInstitution ;
+        :hasName         "China CITIC Bank Corp" ;
+        :hasCountry      "China" ;
+        :hasTotalAssets  _:b30 .
+
+_:b30   rdf:type              :AssetAggregation ;
+        :hasValue             834.934 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-37
+        rdf:type         :FinancialInstitution ;
+        :hasName         "Morgan Stanley" ;
+        :hasCountry      "USA" ;
+        :hasTotalAssets  _:b31 .
+
+_:b31   rdf:type              :AssetAggregation ;
+        :hasValue             832.391 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-38
+        rdf:type         :FinancialInstitution ;
+        :hasName         "Credit Suisse Group" ;
+        :hasCountry      "Switzerland" ;
+        :hasTotalAssets  _:b32 .
+
+_:b32   rdf:type              :AssetAggregation ;
+        :hasValue             811.622 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-39
+        rdf:type         :FinancialInstitution ;
+        :hasName         "Intesa Sanpaolo" ;
+        :hasCountry      "Italy" ;
+        :hasTotalAssets  _:b33 .
+
+_:b33   rdf:type              :AssetAggregation ;
+        :hasValue             790.271 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-4
+        rdf:type         :FinancialInstitution ;
+        :hasName         "Mitsubishi UFJ Financial Group" ;
+        :hasCountry      "Japan" ;
+        :hasTotalAssets  _:b34 .
+
+_:b34   rdf:type              :AssetAggregation ;
+        :hasValue             2713.44 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-40
+        rdf:type         :FinancialInstitution ;
+        :hasName         "Credit Mutuel" ;
+        :hasCountry      "France" ;
+        :hasTotalAssets  _:b35 .
+
+_:b35   rdf:type              :AssetAggregation ;
+        :hasValue             782.37 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-41
+        rdf:type         :FinancialInstitution ;
+        :hasName         "BBVA" ;
+        :hasCountry      "Spain" ;
+        :hasTotalAssets  _:b36 .
+
+_:b36   rdf:type              :AssetAggregation ;
+        :hasValue             768.607 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-42
+        rdf:type         :FinancialInstitution ;
+        :hasName         "Commonwealth Bank of Australia" ;
+        :hasCountry      "Australia" ;
+        :hasTotalAssets  _:b37 .
+
+_:b37   rdf:type              :AssetAggregation ;
+        :hasValue             743.871 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-43
+        rdf:type         :FinancialInstitution ;
+        :hasName         "Rabobank Group" ;
+        :hasCountry      "Netherlands" ;
+        :hasTotalAssets  _:b38 .
+
+_:b38   rdf:type              :AssetAggregation ;
+        :hasValue             707.842 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-44
+        rdf:type         :FinancialInstitution ;
+        :hasName         "Nordea" ;
+        :hasCountry      "Sweden" ;
+        :hasTotalAssets  _:b39 .
+
+_:b39   rdf:type              :AssetAggregation ;
+        :hasValue             694.95 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-45
+        rdf:type         :FinancialInstitution ;
+        :hasName         "Australia & New Zealand Banking Group" ;
+        :hasCountry      "Australia" ;
+        :hasTotalAssets  _:b40 .
+
+_:b40   rdf:type              :AssetAggregation ;
+        :hasValue             686.298 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-46
+        rdf:type         :FinancialInstitution ;
+        :hasName         "Bank of Nova Scotia" ;
+        :hasCountry      "Canada" ;
+        :hasTotalAssets  _:b41 .
+
+_:b41   rdf:type              :AssetAggregation ;
+        :hasValue             665.286 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-47
+        rdf:type         :FinancialInstitution ;
+        :hasName         "Standard Chartered Plc" ;
+        :hasCountry      "UK" ;
+        :hasTotalAssets  _:b42 .
+
+_:b42   rdf:type              :AssetAggregation ;
+        :hasValue             646.692 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-48
+        rdf:type         :FinancialInstitution ;
+        :hasName         "Westpac Banking Corp" ;
+        :hasCountry      "Australia" ;
+        :hasTotalAssets  _:b43 .
+
+_:b43   rdf:type              :AssetAggregation ;
+        :hasValue             643.032 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-49
+        rdf:type         :FinancialInstitution ;
+        :hasName         "European Investment Bank" ;
+        :hasCountry      "Luxembourg" ;
+        :hasTotalAssets  _:b44 .
+
+_:b44   rdf:type              :AssetAggregation ;
+        :hasValue             612.616 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-5
+        rdf:type         :FinancialInstitution ;
+        :hasName         "JPMorgan Chase & Co" ;
+        :hasCountry      "USA" ;
+        :hasTotalAssets  _:b45 .
+
+_:b45   rdf:type              :AssetAggregation ;
+        :hasValue             2546.29 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-50
+        rdf:type         :FinancialInstitution ;
+        :hasName         "National Australia Bank" ;
+        :hasCountry      "Australia" ;
+        :hasTotalAssets  _:b46 .
+
+_:b46   rdf:type              :AssetAggregation ;
+        :hasValue             604.935 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-6
+        rdf:type         :FinancialInstitution ;
+        :hasName         "HSBC Holdings" ;
+        :hasCountry      "UK" ;
+        :hasTotalAssets  _:b47 .
+
+_:b47   rdf:type              :AssetAggregation ;
+        :hasValue             2416.47 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-7
+        rdf:type         :FinancialInstitution ;
+        :hasName         "BNP Paribas" ;
+        :hasCountry      "France" ;
+        :hasTotalAssets  _:b48 .
+
+_:b48   rdf:type              :AssetAggregation ;
+        :hasValue             2348.65 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-8
+        rdf:type         :FinancialInstitution ;
+        :hasName         "Bank of America" ;
+        :hasCountry      "USA" ;
+        :hasTotalAssets  _:b49 .
+
+_:b49   rdf:type              :AssetAggregation ;
+        :hasValue             2247.7 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
+
+:row-top50banks2017_03_31-9
+        rdf:type         :FinancialInstitution ;
+        :hasName         "Wells Fargo" ;
+        :hasCountry      "USA" ;
+        :hasTotalAssets  _:b50 .
+
+_:b50   rdf:type              :AssetAggregation ;
+        :hasValue             1951.56 ;
+        :hasBalanceSheetDate  "2017-03-31"^^xsd:date .
